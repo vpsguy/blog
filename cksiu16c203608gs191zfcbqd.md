@@ -7,7 +7,15 @@ Why: Microsoft folks decided to “update” the colors by “brightening” the
 So how to revert to old colors:
 Microsoft released  [Color Tool](https://github.com/microsoft/terminal/releases/tag/1708.14008) . Download it, extract it, copy files colortool.exe and campbell-legacy.ini somewhere and then run this command:
 
-**colortool.exe -b campbell-legacy.ini**
+```
+colortool.exe -b campbell-legacy.ini
+``` 
+
 
 This will affect the colors for both the current console and for the default console.
+
+
+src: 
+
+ [link](https://www.oboroc.com/posts/2020/06/09/restoring-classic-colors-in-windows-10-console/) 
 
